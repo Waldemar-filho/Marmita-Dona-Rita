@@ -1,0 +1,36 @@
+<?php
+    $title = "Restaurante Dona Rita";
+    $desenvolvedor = "Rafael Alves Florindo / Waldemar Augusto da Silva Filho";
+
+    $pratos = array(
+        0 => array('id'=>'1', 
+            'titulo'=>'Alcatra', 
+            'descricao'=>'Arroz com feijão, alcatra, batata frita, tomate e salada de alface.',
+            'preco'=>'R$22,50',
+            'imagem'=>'img/arrozcomfeijao.jpg', 
+            'title_img'=>'Alcatra'),
+        1 => array('id'=>'2', 
+            'titulo'=>'Espaguete', 
+            'descricao'=>'Espaguete com molho de tomate, carne moida e queijo ralado.',
+            'preco'=>'R$19,50',
+            'imagem'=>'img/macarraocommolho.jpg', 
+            'title_img'=>'Espaguete'),
+        2 => array('id'=>'3', 
+            'titulo'=>'Feijoada', 
+            'descricao'=>'Feijão preto com carne de porco defumada e calabresa.',
+            'preco'=>'R$25,00',
+            'imagem'=>'img/feijoada.jpg', 
+            'title_img'=>'Feijoada'),
+        3 => array('id'=>'4', 
+            'titulo'=>'Arroz com ovo e Carne', 
+            'descricao'=>'Arroz com ovo, patinho, batata frita e Alface.',
+            'preco'=>'R$19,50',
+            'imagem'=>'img/arrozcomovo.jpg', 
+            'title_img'=>'Arroz com ovo'),
+        4 => array('id'=>'5', 
+            'titulo'=>'Yakisoba', 
+            'descricao'=>'Macarrão oriental, filé picadinho, legumes aldentes e molho.',
+            'preco'=>'R$20,00',
+            'imagem'=>'img/yakisoba.jpg', 
+            'title_img'=>'Yakisoba'),
+    );
