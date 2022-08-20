@@ -54,8 +54,27 @@
 							<h1><?=$value['titulo'];?></h1>
 						</header>
 						<img src=<?=$value['imagem'];?> title="<?=$value['title_img'];?>" alt="<?=$value['title_img'];?>">
-						<p><?=$value['descricao'];?></p><br>
-						<p><?=$value['preco'];?></p>			
+						<div class="p">
+						</div>		
+						<?php
+						}
+					}
+				}else{
+					echo "Não existe";
+				}
+			?>
+		</section>
+		<section>
+			<?php
+				if(isset($_GET['id']) && !empty($_GET['id'])){
+					$id = $_GET['id'];//validar o recebimento do id
+					foreach($pratos as $key => $value){
+						if($value['id'] == $id){
+			?>
+			        <div>
+						<h2><?=$value['descricao'];?></h2>
+						<h2><?=$value['preco'];?></h2>
+					</div>
 						<?php
 						}
 					}
