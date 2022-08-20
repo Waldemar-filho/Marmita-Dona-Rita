@@ -90,33 +90,42 @@ li a:hover{
     display: flex;
     justify-content: space-between; /*espaçamento entre elementos*/
     flex-wrap: wrap;/*quebrar o conteudo e colocar na linha de baixo*/
+    
+    
 }
 
 .main_pratos .main_pratos_header{
     flex-basis: 100%;
     margin: 30px 0;
+    text-align: left;
+    
 }
 
 .main_pratos .main_pratos_header h1{
     color: #333;
     margin-bottom: 5px;
     font-size: 1.8em;
+    text-align: left;
 }
 .main_pratos article{
     opacity: 0.85;
     flex-basis: calc(25% - 20px);
     margin-bottom: 30px;
+    text-align: left;
 }
 .main_pratos article:hover{
     opacity: 1;
+    text-align: left;
 }
 
 .main_pratos article img{
     width: 100%;
+    text-align: left;
 }
 
 .main_pratos article p{
     margin: 10px 0;
+    text-align: left;
 }
 
 .main_pratos article .category{
@@ -200,4 +209,9 @@ footer{
 }
 footer>p a {
     padding: 20px 10px;
+}
+
+div {
+    margin-top: 10px;
+    margin-left:60px;
 }
